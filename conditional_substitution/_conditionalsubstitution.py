@@ -1,7 +1,15 @@
 from typing import Text
 
-from launch import LaunchContext, Substitution, Condition, SomeSubstitutionsType
-from launch.utilities import normalize_to_list_of_substitutions, perform_substitutions
+from launch import (  # pyright: ignore [reportMissingTypeStubs]
+    LaunchContext,
+    Substitution,
+    Condition,
+    SomeSubstitutionsType,
+)
+from launch.utilities import (  # pyright: ignore [reportMissingTypeStubs]
+    normalize_to_list_of_substitutions,
+    perform_substitutions,
+)
 
 
 class ConditionalSubstitution(Substitution):
