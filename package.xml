@@ -3,7 +3,7 @@
 <package format="3">
   <name>conditional_substitution</name>
   <version>1.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Ternary operator for ROS 2 launch substitutions</description>
   <maintainer email="jonas@jonasotto.com">Jonas Otto</maintainer>
   <license>MIT</license>
 
