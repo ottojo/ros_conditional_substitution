@@ -6,6 +6,8 @@ from launch.utilities import normalize_to_list_of_substitutions, perform_substit
 
 class ConditionalSubstitution(Substitution):
     """
+    Ternary operator for ROS 2 launch substitutions.
+
     Substitution which resolves to one of two other substitutions depending on a condition.
     result = condition ? then_s : else_s
     """
@@ -17,6 +19,8 @@ class ConditionalSubstitution(Substitution):
         else_s: SomeSubstitutionsType,
     ):
         """
+        Create a ConditionalSubstitution.
+
         :param then_s: Resulting substitution when condition evaluates to true
         :param else_s: Resulting substitution when condition evaluates to false
         """
